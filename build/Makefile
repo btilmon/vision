@@ -123,32 +123,86 @@ binary/fast:
 	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/build
 .PHONY : binary/fast
 
-src/image_utils.o: src/image_utils.cpp.o
+src/image.o: src/image.cpp.o
 
-.PHONY : src/image_utils.o
+.PHONY : src/image.o
 
 # target to build an object file
-src/image_utils.cpp.o:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/image_utils.cpp.o
-.PHONY : src/image_utils.cpp.o
+src/image.cpp.o:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/image.cpp.o
+.PHONY : src/image.cpp.o
 
-src/image_utils.i: src/image_utils.cpp.i
+src/image.i: src/image.cpp.i
 
-.PHONY : src/image_utils.i
+.PHONY : src/image.i
 
 # target to preprocess a source file
-src/image_utils.cpp.i:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/image_utils.cpp.i
-.PHONY : src/image_utils.cpp.i
+src/image.cpp.i:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/image.cpp.i
+.PHONY : src/image.cpp.i
 
-src/image_utils.s: src/image_utils.cpp.s
+src/image.s: src/image.cpp.s
 
-.PHONY : src/image_utils.s
+.PHONY : src/image.s
 
 # target to generate assembly for a file
-src/image_utils.cpp.s:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/image_utils.cpp.s
-.PHONY : src/image_utils.cpp.s
+src/image.cpp.s:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/image.cpp.s
+.PHONY : src/image.cpp.s
+
+src/test.o: src/test.cpp.o
+
+.PHONY : src/test.o
+
+# target to build an object file
+src/test.cpp.o:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/test.cpp.o
+.PHONY : src/test.cpp.o
+
+src/test.i: src/test.cpp.i
+
+.PHONY : src/test.i
+
+# target to preprocess a source file
+src/test.cpp.i:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/test.cpp.i
+.PHONY : src/test.cpp.i
+
+src/test.s: src/test.cpp.s
+
+.PHONY : src/test.s
+
+# target to generate assembly for a file
+src/test.cpp.s:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/test.cpp.s
+.PHONY : src/test.cpp.s
+
+tests/unit_tests.o: tests/unit_tests.cpp.o
+
+.PHONY : tests/unit_tests.o
+
+# target to build an object file
+tests/unit_tests.cpp.o:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/tests/unit_tests.cpp.o
+.PHONY : tests/unit_tests.cpp.o
+
+tests/unit_tests.i: tests/unit_tests.cpp.i
+
+.PHONY : tests/unit_tests.i
+
+# target to preprocess a source file
+tests/unit_tests.cpp.i:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/tests/unit_tests.cpp.i
+.PHONY : tests/unit_tests.cpp.i
+
+tests/unit_tests.s: tests/unit_tests.cpp.s
+
+.PHONY : tests/unit_tests.s
+
+# target to generate assembly for a file
+tests/unit_tests.cpp.s:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/tests/unit_tests.cpp.s
+.PHONY : tests/unit_tests.cpp.s
 
 # Help Target
 help:
@@ -159,9 +213,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... binary"
-	@echo "... src/image_utils.o"
-	@echo "... src/image_utils.i"
-	@echo "... src/image_utils.s"
+	@echo "... src/image.o"
+	@echo "... src/image.i"
+	@echo "... src/image.s"
+	@echo "... src/test.o"
+	@echo "... src/test.i"
+	@echo "... src/test.s"
+	@echo "... tests/unit_tests.o"
+	@echo "... tests/unit_tests.i"
+	@echo "... tests/unit_tests.s"
 .PHONY : help
 
 
