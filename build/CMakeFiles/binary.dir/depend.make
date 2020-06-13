@@ -4,10 +4,10 @@
 CMakeFiles/binary.dir/src/test.cpp.o: ../src/test.cpp
 CMakeFiles/binary.dir/src/test.cpp.o: ../src/utils/image.h
 
-CMakeFiles/binary.dir/src/utils/image.cpp.o: .././include/vision/stb_image.h
-CMakeFiles/binary.dir/src/utils/image.cpp.o: .././include/vision/stb_image_write.h
-CMakeFiles/binary.dir/src/utils/image.cpp.o: ../src/utils/image.cpp
-CMakeFiles/binary.dir/src/utils/image.cpp.o: ../src/utils/image.h
+CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o: .././include/vision/stb_image.h
+CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o: .././include/vision/stb_image_write.h
+CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o: ../src/utils/basic_utils.cpp
+CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o: ../src/utils/image.h
 
 CMakeFiles/binary.dir/tests/unit_tests.cpp.o: ../tests/unit_tests.cpp
 

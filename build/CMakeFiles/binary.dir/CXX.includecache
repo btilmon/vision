@@ -53,10 +53,14 @@ assert.h
 /home/bjt/Documents/research/vision/src/test.cpp
 stdlib.h
 -
+stdio.h
+-
+iostream
+-
 utils/image.h
 /home/bjt/Documents/research/vision/src/utils/image.h
 
-/home/bjt/Documents/research/vision/src/utils/image.cpp
+/home/bjt/Documents/research/vision/src/utils/basic_utils.cpp
 iostream
 -
 stdio.h

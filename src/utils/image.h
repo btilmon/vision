@@ -13,5 +13,7 @@ image make_empty_image(int h, int w, int c);
 image load_image(char *filename, int channels);
 void save_image(image im, const char *name);
 
+// misc
+void determine_cpp_version();
 
 #endif

@@ -1,5 +1,11 @@
 #include <stdlib.h>
+#include <stdio.h>
+#include <iostream>
 #include "utils/image.h"
+
+using namespace std;
+
+
 
 int main()
 {

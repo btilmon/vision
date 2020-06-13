@@ -81,28 +81,28 @@ CMakeFiles/binary.dir/src/test.cpp.o.provides: CMakeFiles/binary.dir/src/test.cp
 CMakeFiles/binary.dir/src/test.cpp.o.provides.build: CMakeFiles/binary.dir/src/test.cpp.o
 
 
-CMakeFiles/binary.dir/src/utils/image.cpp.o: CMakeFiles/binary.dir/flags.make
-CMakeFiles/binary.dir/src/utils/image.cpp.o: ../src/utils/image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bjt/Documents/research/vision/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/binary.dir/src/utils/image.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/binary.dir/src/utils/image.cpp.o -c /home/bjt/Documents/research/vision/src/utils/image.cpp
+CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o: CMakeFiles/binary.dir/flags.make
+CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o: ../src/utils/basic_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bjt/Documents/research/vision/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o -c /home/bjt/Documents/research/vision/src/utils/basic_utils.cpp
 
-CMakeFiles/binary.dir/src/utils/image.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/binary.dir/src/utils/image.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bjt/Documents/research/vision/src/utils/image.cpp > CMakeFiles/binary.dir/src/utils/image.cpp.i
+CMakeFiles/binary.dir/src/utils/basic_utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/binary.dir/src/utils/basic_utils.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bjt/Documents/research/vision/src/utils/basic_utils.cpp > CMakeFiles/binary.dir/src/utils/basic_utils.cpp.i
 
-CMakeFiles/binary.dir/src/utils/image.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/binary.dir/src/utils/image.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bjt/Documents/research/vision/src/utils/image.cpp -o CMakeFiles/binary.dir/src/utils/image.cpp.s
+CMakeFiles/binary.dir/src/utils/basic_utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/binary.dir/src/utils/basic_utils.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bjt/Documents/research/vision/src/utils/basic_utils.cpp -o CMakeFiles/binary.dir/src/utils/basic_utils.cpp.s
 
-CMakeFiles/binary.dir/src/utils/image.cpp.o.requires:
+CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o.requires:
 
-.PHONY : CMakeFiles/binary.dir/src/utils/image.cpp.o.requires
+.PHONY : CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o.requires
 
-CMakeFiles/binary.dir/src/utils/image.cpp.o.provides: CMakeFiles/binary.dir/src/utils/image.cpp.o.requires
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/utils/image.cpp.o.provides.build
-.PHONY : CMakeFiles/binary.dir/src/utils/image.cpp.o.provides
+CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o.provides: CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o.requires
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o.provides.build
+.PHONY : CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o.provides
 
-CMakeFiles/binary.dir/src/utils/image.cpp.o.provides.build: CMakeFiles/binary.dir/src/utils/image.cpp.o
+CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o.provides.build: CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o
 
 
 CMakeFiles/binary.dir/tests/unit_tests.cpp.o: CMakeFiles/binary.dir/flags.make
@@ -132,14 +132,14 @@ CMakeFiles/binary.dir/tests/unit_tests.cpp.o.provides.build: CMakeFiles/binary.d
 # Object files for target binary
 binary_OBJECTS = \
 "CMakeFiles/binary.dir/src/test.cpp.o" \
-"CMakeFiles/binary.dir/src/utils/image.cpp.o" \
+"CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o" \
 "CMakeFiles/binary.dir/tests/unit_tests.cpp.o"
 
 # External object files for target binary
 binary_EXTERNAL_OBJECTS =
 
 binary: CMakeFiles/binary.dir/src/test.cpp.o
-binary: CMakeFiles/binary.dir/src/utils/image.cpp.o
+binary: CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o
 binary: CMakeFiles/binary.dir/tests/unit_tests.cpp.o
 binary: CMakeFiles/binary.dir/build.make
 binary: CMakeFiles/binary.dir/link.txt
@@ -152,7 +152,7 @@ CMakeFiles/binary.dir/build: binary
 .PHONY : CMakeFiles/binary.dir/build
 
 CMakeFiles/binary.dir/requires: CMakeFiles/binary.dir/src/test.cpp.o.requires
-CMakeFiles/binary.dir/requires: CMakeFiles/binary.dir/src/utils/image.cpp.o.requires
+CMakeFiles/binary.dir/requires: CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o.requires
 CMakeFiles/binary.dir/requires: CMakeFiles/binary.dir/tests/unit_tests.cpp.o.requires
 
 .PHONY : CMakeFiles/binary.dir/requires

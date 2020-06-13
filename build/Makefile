@@ -150,32 +150,32 @@ src/test.cpp.s:
 	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/test.cpp.s
 .PHONY : src/test.cpp.s
 
-src/utils/image.o: src/utils/image.cpp.o
+src/utils/basic_utils.o: src/utils/basic_utils.cpp.o
 
-.PHONY : src/utils/image.o
+.PHONY : src/utils/basic_utils.o
 
 # target to build an object file
-src/utils/image.cpp.o:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/utils/image.cpp.o
-.PHONY : src/utils/image.cpp.o
+src/utils/basic_utils.cpp.o:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o
+.PHONY : src/utils/basic_utils.cpp.o
 
-src/utils/image.i: src/utils/image.cpp.i
+src/utils/basic_utils.i: src/utils/basic_utils.cpp.i
 
-.PHONY : src/utils/image.i
+.PHONY : src/utils/basic_utils.i
 
 # target to preprocess a source file
-src/utils/image.cpp.i:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/utils/image.cpp.i
-.PHONY : src/utils/image.cpp.i
+src/utils/basic_utils.cpp.i:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/utils/basic_utils.cpp.i
+.PHONY : src/utils/basic_utils.cpp.i
 
-src/utils/image.s: src/utils/image.cpp.s
+src/utils/basic_utils.s: src/utils/basic_utils.cpp.s
 
-.PHONY : src/utils/image.s
+.PHONY : src/utils/basic_utils.s
 
 # target to generate assembly for a file
-src/utils/image.cpp.s:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/utils/image.cpp.s
-.PHONY : src/utils/image.cpp.s
+src/utils/basic_utils.cpp.s:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/utils/basic_utils.cpp.s
+.PHONY : src/utils/basic_utils.cpp.s
 
 tests/unit_tests.o: tests/unit_tests.cpp.o
 
@@ -216,9 +216,9 @@ help:
 	@echo "... src/test.o"
 	@echo "... src/test.i"
 	@echo "... src/test.s"
-	@echo "... src/utils/image.o"
-	@echo "... src/utils/image.i"
-	@echo "... src/utils/image.s"
+	@echo "... src/utils/basic_utils.o"
+	@echo "... src/utils/basic_utils.i"
+	@echo "... src/utils/basic_utils.s"
 	@echo "... tests/unit_tests.o"
 	@echo "... tests/unit_tests.i"
 	@echo "... tests/unit_tests.s"

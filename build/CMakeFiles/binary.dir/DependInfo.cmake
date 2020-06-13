@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/bjt/Documents/research/vision/src/test.cpp" "/home/bjt/Documents/research/vision/build/CMakeFiles/binary.dir/src/test.cpp.o"
-  "/home/bjt/Documents/research/vision/src/utils/image.cpp" "/home/bjt/Documents/research/vision/build/CMakeFiles/binary.dir/src/utils/image.cpp.o"
+  "/home/bjt/Documents/research/vision/src/utils/basic_utils.cpp" "/home/bjt/Documents/research/vision/build/CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o"
   "/home/bjt/Documents/research/vision/tests/unit_tests.cpp" "/home/bjt/Documents/research/vision/build/CMakeFiles/binary.dir/tests/unit_tests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
