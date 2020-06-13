@@ -50,7 +50,13 @@ math.h
 assert.h
 -
 
-/home/bjt/Documents/research/vision/src/image.cpp
+/home/bjt/Documents/research/vision/src/test.cpp
+stdlib.h
+-
+utils/image.h
+/home/bjt/Documents/research/vision/src/utils/image.h
+
+/home/bjt/Documents/research/vision/src/utils/image.cpp
 iostream
 -
 stdio.h
@@ -58,19 +64,13 @@ stdio.h
 stdlib.h
 -
 vision/stb_image.h
-/home/bjt/Documents/research/vision/src/vision/stb_image.h
+/home/bjt/Documents/research/vision/src/utils/vision/stb_image.h
 vision/stb_image_write.h
-/home/bjt/Documents/research/vision/src/vision/stb_image_write.h
+/home/bjt/Documents/research/vision/src/utils/vision/stb_image_write.h
 image.h
-/home/bjt/Documents/research/vision/src/image.h
+/home/bjt/Documents/research/vision/src/utils/image.h
 
-/home/bjt/Documents/research/vision/src/image.h
-
-/home/bjt/Documents/research/vision/src/test.cpp
-stdlib.h
--
-image.h
-/home/bjt/Documents/research/vision/src/image.h
+/home/bjt/Documents/research/vision/src/utils/image.h
 
 /home/bjt/Documents/research/vision/tests/unit_tests.cpp
 iostream

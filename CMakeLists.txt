@@ -12,7 +12,7 @@ project( vision )
 include_directories( ./include ./src )
 
 # target
-add_executable( binary ./src/test.cpp ./src/image.cpp ./tests/unit_tests.cpp )
+add_executable( binary ./src/test.cpp ./src/utils/image.cpp ./tests/unit_tests.cpp )
 
 # external libs
 find_package (Eigen3 REQUIRED)

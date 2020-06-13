@@ -123,33 +123,6 @@ binary/fast:
 	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/build
 .PHONY : binary/fast
 
-src/image.o: src/image.cpp.o
-
-.PHONY : src/image.o
-
-# target to build an object file
-src/image.cpp.o:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/image.cpp.o
-.PHONY : src/image.cpp.o
-
-src/image.i: src/image.cpp.i
-
-.PHONY : src/image.i
-
-# target to preprocess a source file
-src/image.cpp.i:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/image.cpp.i
-.PHONY : src/image.cpp.i
-
-src/image.s: src/image.cpp.s
-
-.PHONY : src/image.s
-
-# target to generate assembly for a file
-src/image.cpp.s:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/image.cpp.s
-.PHONY : src/image.cpp.s
-
 src/test.o: src/test.cpp.o
 
 .PHONY : src/test.o
@@ -176,6 +149,33 @@ src/test.s: src/test.cpp.s
 src/test.cpp.s:
 	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/test.cpp.s
 .PHONY : src/test.cpp.s
+
+src/utils/image.o: src/utils/image.cpp.o
+
+.PHONY : src/utils/image.o
+
+# target to build an object file
+src/utils/image.cpp.o:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/utils/image.cpp.o
+.PHONY : src/utils/image.cpp.o
+
+src/utils/image.i: src/utils/image.cpp.i
+
+.PHONY : src/utils/image.i
+
+# target to preprocess a source file
+src/utils/image.cpp.i:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/utils/image.cpp.i
+.PHONY : src/utils/image.cpp.i
+
+src/utils/image.s: src/utils/image.cpp.s
+
+.PHONY : src/utils/image.s
+
+# target to generate assembly for a file
+src/utils/image.cpp.s:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/utils/image.cpp.s
+.PHONY : src/utils/image.cpp.s
 
 tests/unit_tests.o: tests/unit_tests.cpp.o
 
@@ -213,12 +213,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... binary"
-	@echo "... src/image.o"
-	@echo "... src/image.i"
-	@echo "... src/image.s"
 	@echo "... src/test.o"
 	@echo "... src/test.i"
 	@echo "... src/test.s"
+	@echo "... src/utils/image.o"
+	@echo "... src/utils/image.i"
+	@echo "... src/utils/image.s"
 	@echo "... tests/unit_tests.o"
 	@echo "... tests/unit_tests.i"
 	@echo "... tests/unit_tests.s"
