@@ -1,6 +1,6 @@
 # Computer Vision Library #
 
-Custom computer vision library written in C++ with no dependencies. Wanted a library I could use anywhere without opencv. 
+Custom computer vision library written in C++ with no additional dependencies. Wanted a library I could use anywhere without opencv. 
 
 Uses [stb_image](https://github.com/nothings/stb) single-file library for image I/O.
 
