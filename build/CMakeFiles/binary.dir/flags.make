@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/bjt/Documents/research/vision/./include -I/home/bjt/Documents/research/vision/./src -isystem /usr/local/include/eigen3 
+CXX_INCLUDES = -I/home/bjt/Documents/research/vision/./include -I/home/bjt/Documents/research/vision/./src 
 
