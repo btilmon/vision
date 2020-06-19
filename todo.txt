@@ -1,5 +1,0 @@
-- load images and correctly convert them to 3d float
-https://medium.com/@soubhimhadri/image-processing-best-practices-c-280caadacb82
-
-- implement sift
-

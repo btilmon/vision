@@ -11,7 +11,7 @@ project( vision )
 include_directories( ./include ./src )
 
 # target
-add_executable( binary ./src/test.cpp ./src/utils/basic_utils.cpp ./tests/unit_tests.cpp )
+add_executable( binary ./src/main.cpp ./src/utils/filtering.cpp ./src/utils/basic_utils.cpp ./tests/unit_tests.cpp )
 
 ########################
 # Maybe add Eigen later?
