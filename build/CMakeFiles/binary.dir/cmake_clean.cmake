@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/binary.dir/src/main.cpp.o"
-  "CMakeFiles/binary.dir/src/utils/filtering.cpp.o"
-  "CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o"
+  "CMakeFiles/binary.dir/src/filtering.cpp.o"
+  "CMakeFiles/binary.dir/src/basic_utils.cpp.o"
   "CMakeFiles/binary.dir/tests/unit_tests.cpp.o"
   "binary.pdb"
   "binary"

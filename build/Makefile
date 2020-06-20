@@ -123,6 +123,60 @@ binary/fast:
 	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/build
 .PHONY : binary/fast
 
+src/basic_utils.o: src/basic_utils.cpp.o
+
+.PHONY : src/basic_utils.o
+
+# target to build an object file
+src/basic_utils.cpp.o:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/basic_utils.cpp.o
+.PHONY : src/basic_utils.cpp.o
+
+src/basic_utils.i: src/basic_utils.cpp.i
+
+.PHONY : src/basic_utils.i
+
+# target to preprocess a source file
+src/basic_utils.cpp.i:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/basic_utils.cpp.i
+.PHONY : src/basic_utils.cpp.i
+
+src/basic_utils.s: src/basic_utils.cpp.s
+
+.PHONY : src/basic_utils.s
+
+# target to generate assembly for a file
+src/basic_utils.cpp.s:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/basic_utils.cpp.s
+.PHONY : src/basic_utils.cpp.s
+
+src/filtering.o: src/filtering.cpp.o
+
+.PHONY : src/filtering.o
+
+# target to build an object file
+src/filtering.cpp.o:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/filtering.cpp.o
+.PHONY : src/filtering.cpp.o
+
+src/filtering.i: src/filtering.cpp.i
+
+.PHONY : src/filtering.i
+
+# target to preprocess a source file
+src/filtering.cpp.i:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/filtering.cpp.i
+.PHONY : src/filtering.cpp.i
+
+src/filtering.s: src/filtering.cpp.s
+
+.PHONY : src/filtering.s
+
+# target to generate assembly for a file
+src/filtering.cpp.s:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/filtering.cpp.s
+.PHONY : src/filtering.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -149,60 +203,6 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
-
-src/utils/basic_utils.o: src/utils/basic_utils.cpp.o
-
-.PHONY : src/utils/basic_utils.o
-
-# target to build an object file
-src/utils/basic_utils.cpp.o:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/utils/basic_utils.cpp.o
-.PHONY : src/utils/basic_utils.cpp.o
-
-src/utils/basic_utils.i: src/utils/basic_utils.cpp.i
-
-.PHONY : src/utils/basic_utils.i
-
-# target to preprocess a source file
-src/utils/basic_utils.cpp.i:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/utils/basic_utils.cpp.i
-.PHONY : src/utils/basic_utils.cpp.i
-
-src/utils/basic_utils.s: src/utils/basic_utils.cpp.s
-
-.PHONY : src/utils/basic_utils.s
-
-# target to generate assembly for a file
-src/utils/basic_utils.cpp.s:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/utils/basic_utils.cpp.s
-.PHONY : src/utils/basic_utils.cpp.s
-
-src/utils/filtering.o: src/utils/filtering.cpp.o
-
-.PHONY : src/utils/filtering.o
-
-# target to build an object file
-src/utils/filtering.cpp.o:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/utils/filtering.cpp.o
-.PHONY : src/utils/filtering.cpp.o
-
-src/utils/filtering.i: src/utils/filtering.cpp.i
-
-.PHONY : src/utils/filtering.i
-
-# target to preprocess a source file
-src/utils/filtering.cpp.i:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/utils/filtering.cpp.i
-.PHONY : src/utils/filtering.cpp.i
-
-src/utils/filtering.s: src/utils/filtering.cpp.s
-
-.PHONY : src/utils/filtering.s
-
-# target to generate assembly for a file
-src/utils/filtering.cpp.s:
-	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/utils/filtering.cpp.s
-.PHONY : src/utils/filtering.cpp.s
 
 tests/unit_tests.o: tests/unit_tests.cpp.o
 
@@ -240,15 +240,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... binary"
+	@echo "... src/basic_utils.o"
+	@echo "... src/basic_utils.i"
+	@echo "... src/basic_utils.s"
+	@echo "... src/filtering.o"
+	@echo "... src/filtering.i"
+	@echo "... src/filtering.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/utils/basic_utils.o"
-	@echo "... src/utils/basic_utils.i"
-	@echo "... src/utils/basic_utils.s"
-	@echo "... src/utils/filtering.o"
-	@echo "... src/utils/filtering.i"
-	@echo "... src/utils/filtering.s"
 	@echo "... tests/unit_tests.o"
 	@echo "... tests/unit_tests.i"
 	@echo "... tests/unit_tests.s"

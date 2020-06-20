@@ -7,8 +7,8 @@
 #include <iostream>
 #include <chrono>
 #include <cstring>
-#include "utils/image.h"
-#include "utils/filtering.h"
+#include "image.h"
+
 
 
 using namespace std;
@@ -16,24 +16,23 @@ using namespace std::chrono;
   
  
 int main()
-{
-  image gray = load_image("/home/bjt/Documents/research/vision/src/resize.jpg");
+  {
+  Image gray = rgb2gray(load_image("/home/bjt/Documents/research/vision/src/keble_a.jpg"));
+  gray.feature_normalize();
+  //Image filtered = blur(gray, 1);
+  /*
+  for(int c=0; c<gauss.c; ++c){
+    for(int h=0; h<gauss.h; ++h){
+      for(int w=0; w<gauss.w; ++w){
+	//cout << gauss(h,w,c) << " ";
+      }
+      //cout << endl;
+    }
+  }
+  */
 
-  image k = gaussian_kernel(5,3,1);
+  //filtered.save_image("/home/bjt/Documents/research/vision/src/gauss.jpg");
+  
+  }
 
-  auto start = high_resolution_clock::now();
-  //image dest;
-  //std::memcpy ( &dest, &gray, sizeof(gray) );
-  image filt = convolve(gray, k);
-  auto stop = high_resolution_clock::now(); 
-  auto duration = duration_cast<milliseconds>(stop - start);
-  cout << duration.count() << endl;
 
-  
-  save_image(filt, "/home/bjt/Documents/research/vision/src/filt.jpg");
-  
-  delete gray.data;
-  
-  //delete kernel.data;
-  
-}
