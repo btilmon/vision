@@ -552,3 +552,510 @@ make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C++ SOURCE FILE Test EIGEN_COMPILER_SUPPORT_CPP11 succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_64c29/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_64c29.dir/build.make CMakeFiles/cmTC_64c29.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_64c29.dir/src.cxx.o
+/usr/bin/c++     -DEIGEN_COMPILER_SUPPORT_CPP11   -std=c++11 -o CMakeFiles/cmTC_64c29.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_64c29
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64c29.dir/link.txt --verbose=1
+/usr/bin/c++    -DEIGEN_COMPILER_SUPPORT_CPP11    CMakeFiles/cmTC_64c29.dir/src.cxx.o  -o cmTC_64c29 -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7dbae/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7dbae.dir/build.make CMakeFiles/cmTC_7dbae.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7dbae.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORT_std=cpp03   -std=c++03 -o CMakeFiles/cmTC_7dbae.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7dbae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dbae.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORT_std=cpp03    CMakeFiles/cmTC_7dbae.dir/src.cxx.o  -o cmTC_7dbae -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test standard_math_library_linked_to_automatically succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8ea5/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b8ea5.dir/build.make CMakeFiles/cmTC_b8ea5.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b8ea5.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -Dstandard_math_library_linked_to_automatically   -o CMakeFiles/cmTC_b8ea5.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b8ea5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8ea5.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -Dstandard_math_library_linked_to_automatically    CMakeFiles/cmTC_b8ea5.dir/src.cxx.o  -o cmTC_b8ea5 -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include<cmath>
+int main() { std::sin(0.0); std::log(0.0f); }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_WERROR succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa3ab/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_aa3ab.dir/build.make CMakeFiles/cmTC_aa3ab.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aa3ab.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -DCOMPILER_SUPPORT_WERROR   -Werror -o CMakeFiles/cmTC_aa3ab.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_aa3ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa3ab.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -DCOMPILER_SUPPORT_WERROR    CMakeFiles/cmTC_aa3ab.dir/src.cxx.o  -o cmTC_aa3ab -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_pedantic succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3d330/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3d330.dir/build.make CMakeFiles/cmTC_3d330.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3d330.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -DCOMPILER_SUPPORT_pedantic -Werror   -pedantic -o CMakeFiles/cmTC_3d330.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3d330
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d330.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -DCOMPILER_SUPPORT_pedantic -Werror    CMakeFiles/cmTC_3d330.dir/src.cxx.o  -o cmTC_3d330 -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wall succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a76f1/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a76f1.dir/build.make CMakeFiles/cmTC_a76f1.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a76f1.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -DCOMPILER_SUPPORT_Wall -Werror   -Wall -o CMakeFiles/cmTC_a76f1.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a76f1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a76f1.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -pedantic -DCOMPILER_SUPPORT_Wall -Werror    CMakeFiles/cmTC_a76f1.dir/src.cxx.o  -o cmTC_a76f1 -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wextra succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49b9e/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_49b9e.dir/build.make CMakeFiles/cmTC_49b9e.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_49b9e.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -DCOMPILER_SUPPORT_Wextra -Werror   -Wextra -o CMakeFiles/cmTC_49b9e.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_49b9e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49b9e.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -pedantic -Wall -DCOMPILER_SUPPORT_Wextra -Werror    CMakeFiles/cmTC_49b9e.dir/src.cxx.o  -o cmTC_49b9e -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wundef succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a03f/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0a03f.dir/build.make CMakeFiles/cmTC_0a03f.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0a03f.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -DCOMPILER_SUPPORT_Wundef -Werror   -Wundef -o CMakeFiles/cmTC_0a03f.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0a03f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a03f.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -DCOMPILER_SUPPORT_Wundef -Werror    CMakeFiles/cmTC_0a03f.dir/src.cxx.o  -o cmTC_0a03f -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcastalign succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2b4ab/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2b4ab.dir/build.make CMakeFiles/cmTC_2b4ab.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2b4ab.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -DCOMPILER_SUPPORT_Wcastalign -Werror   -Wcast-align -o CMakeFiles/cmTC_2b4ab.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2b4ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b4ab.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -DCOMPILER_SUPPORT_Wcastalign -Werror    CMakeFiles/cmTC_2b4ab.dir/src.cxx.o  -o cmTC_2b4ab -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcharsubscripts succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dfe42/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_dfe42.dir/build.make CMakeFiles/cmTC_dfe42.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dfe42.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -DCOMPILER_SUPPORT_Wcharsubscripts -Werror   -Wchar-subscripts -o CMakeFiles/cmTC_dfe42.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_dfe42
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfe42.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -DCOMPILER_SUPPORT_Wcharsubscripts -Werror    CMakeFiles/cmTC_dfe42.dir/src.cxx.o  -o cmTC_dfe42 -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnonvirtualdtor succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f986/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5f986.dir/build.make CMakeFiles/cmTC_5f986.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5f986.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -DCOMPILER_SUPPORT_Wnonvirtualdtor -Werror   -Wnon-virtual-dtor -o CMakeFiles/cmTC_5f986.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5f986
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f986.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -DCOMPILER_SUPPORT_Wnonvirtualdtor -Werror    CMakeFiles/cmTC_5f986.dir/src.cxx.o  -o cmTC_5f986 -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wunusedlocaltypedefs succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b5436/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b5436.dir/build.make CMakeFiles/cmTC_b5436.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b5436.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -DCOMPILER_SUPPORT_Wunusedlocaltypedefs -Werror   -Wunused-local-typedefs -o CMakeFiles/cmTC_b5436.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b5436
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5436.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -DCOMPILER_SUPPORT_Wunusedlocaltypedefs -Werror    CMakeFiles/cmTC_b5436.dir/src.cxx.o  -o cmTC_b5436 -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wpointerarith succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b4d7f/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b4d7f.dir/build.make CMakeFiles/cmTC_b4d7f.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b4d7f.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -DCOMPILER_SUPPORT_Wpointerarith -Werror   -Wpointer-arith -o CMakeFiles/cmTC_b4d7f.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b4d7f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4d7f.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -DCOMPILER_SUPPORT_Wpointerarith -Werror    CMakeFiles/cmTC_b4d7f.dir/src.cxx.o  -o cmTC_b4d7f -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wwritestrings succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cbdb4/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_cbdb4.dir/build.make CMakeFiles/cmTC_cbdb4.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cbdb4.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -DCOMPILER_SUPPORT_Wwritestrings -Werror   -Wwrite-strings -o CMakeFiles/cmTC_cbdb4.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cbdb4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbdb4.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -DCOMPILER_SUPPORT_Wwritestrings -Werror    CMakeFiles/cmTC_cbdb4.dir/src.cxx.o  -o cmTC_cbdb4 -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wformatsecurity succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e3f1e/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e3f1e.dir/build.make CMakeFiles/cmTC_e3f1e.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e3f1e.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -DCOMPILER_SUPPORT_Wformatsecurity -Werror   -Wformat-security -o CMakeFiles/cmTC_e3f1e.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e3f1e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3f1e.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -DCOMPILER_SUPPORT_Wformatsecurity -Werror    CMakeFiles/cmTC_e3f1e.dir/src.cxx.o  -o cmTC_e3f1e -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wlogicalop succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_343c6/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_343c6.dir/build.make CMakeFiles/cmTC_343c6.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_343c6.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wlogicalop -Werror   -Wlogical-op -o CMakeFiles/cmTC_343c6.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_343c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_343c6.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -DCOMPILER_SUPPORT_Wlogicalop -Werror    CMakeFiles/cmTC_343c6.dir/src.cxx.o  -o cmTC_343c6 -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wdoublepromotion succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_abe79/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_abe79.dir/build.make CMakeFiles/cmTC_abe79.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_abe79.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wdoublepromotion -Werror   -Wdouble-promotion -o CMakeFiles/cmTC_abe79.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_abe79
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abe79.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -DCOMPILER_SUPPORT_Wdoublepromotion -Werror    CMakeFiles/cmTC_abe79.dir/src.cxx.o  -o cmTC_abe79 -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnopsabi succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9649/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c9649.dir/build.make CMakeFiles/cmTC_c9649.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c9649.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -DCOMPILER_SUPPORT_Wnopsabi -Werror   -Wno-psabi -o CMakeFiles/cmTC_c9649.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c9649
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9649.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -DCOMPILER_SUPPORT_Wnopsabi -Werror    CMakeFiles/cmTC_c9649.dir/src.cxx.o  -o cmTC_c9649 -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnovariadicmacros succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a717/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1a717.dir/build.make CMakeFiles/cmTC_1a717.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1a717.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -DCOMPILER_SUPPORT_Wnovariadicmacros -Werror   -Wno-variadic-macros -o CMakeFiles/cmTC_1a717.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1a717
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a717.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -DCOMPILER_SUPPORT_Wnovariadicmacros -Werror    CMakeFiles/cmTC_1a717.dir/src.cxx.o  -o cmTC_1a717 -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wnolonglong succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9543d/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9543d.dir/build.make CMakeFiles/cmTC_9543d.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9543d.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -DCOMPILER_SUPPORT_Wnolonglong -Werror   -Wno-long-long -o CMakeFiles/cmTC_9543d.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9543d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9543d.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -DCOMPILER_SUPPORT_Wnolonglong -Werror    CMakeFiles/cmTC_9543d.dir/src.cxx.o  -o cmTC_9543d -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnochecknew succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d4ad/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2d4ad.dir/build.make CMakeFiles/cmTC_2d4ad.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2d4ad.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -DCOMPILER_SUPPORT_fnochecknew -Werror   -fno-check-new -o CMakeFiles/cmTC_2d4ad.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2d4ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d4ad.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -DCOMPILER_SUPPORT_fnochecknew -Werror    CMakeFiles/cmTC_2d4ad.dir/src.cxx.o  -o cmTC_2d4ad -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fnocommon succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_23fb4/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_23fb4.dir/build.make CMakeFiles/cmTC_23fb4.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_23fb4.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -DCOMPILER_SUPPORT_fnocommon -Werror   -fno-common -o CMakeFiles/cmTC_23fb4.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_23fb4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23fb4.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -DCOMPILER_SUPPORT_fnocommon -Werror    CMakeFiles/cmTC_23fb4.dir/src.cxx.o  -o cmTC_23fb4 -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_fstrictaliasing succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_13ad6/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_13ad6.dir/build.make CMakeFiles/cmTC_13ad6.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_13ad6.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -DCOMPILER_SUPPORT_fstrictaliasing -Werror   -fstrict-aliasing -o CMakeFiles/cmTC_13ad6.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_13ad6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13ad6.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -DCOMPILER_SUPPORT_fstrictaliasing -Werror    CMakeFiles/cmTC_13ad6.dir/src.cxx.o  -o cmTC_13ad6 -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_ansi succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9382c/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9382c.dir/build.make CMakeFiles/cmTC_9382c.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9382c.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_ansi -Werror   -ansi -o CMakeFiles/cmTC_9382c.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9382c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9382c.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -DCOMPILER_SUPPORT_ansi -Werror    CMakeFiles/cmTC_9382c.dir/src.cxx.o  -o cmTC_9382c -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_OPENMP succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ba1f7/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ba1f7.dir/build.make CMakeFiles/cmTC_ba1f7.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ba1f7.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -DCOMPILER_SUPPORT_OPENMP   -fopenmp -o CMakeFiles/cmTC_ba1f7.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ba1f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba1f7.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -DCOMPILER_SUPPORT_OPENMP    CMakeFiles/cmTC_ba1f7.dir/src.cxx.o  -o cmTC_ba1f7 -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11be3/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_11be3.dir/build.make CMakeFiles/cmTC_11be3.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11be3.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_11be3.dir/CheckIncludeFile.c.o   -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_11be3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11be3.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_11be3.dir/CheckIncludeFile.c.o  -o cmTC_11be3 -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43cd7/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_43cd7.dir/build.make CMakeFiles/cmTC_43cd7.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43cd7.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_43cd7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_43cd7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43cd7.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_43cd7.dir/CheckFunctionExists.c.o  -o cmTC_43cd7 -rdynamic -lpthread 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_FASTMATH succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12f3d/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_12f3d.dir/build.make CMakeFiles/cmTC_12f3d.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_12f3d.dir/src.cxx.o
+/usr/bin/c++     -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -DCOMPILER_SUPPORT_FASTMATH   -ffast-math -o CMakeFiles/cmTC_12f3d.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_12f3d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12f3d.dir/link.txt --verbose=1
+/usr/bin/c++    -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -ansi -DCOMPILER_SUPPORT_FASTMATH    CMakeFiles/cmTC_12f3d.dir/src.cxx.o  -o cmTC_12f3d -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_96d4d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_96d4d.dir/build.make CMakeFiles/cmTC_96d4d.dir/build
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_96d4d.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORT_std=cpp03   -std=c++03 -o CMakeFiles/cmTC_96d4d.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_96d4d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96d4d.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORT_std=cpp03    CMakeFiles/cmTC_96d4d.dir/src.cxx.o  -o cmTC_96d4d -rdynamic 
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_std=cpp03 succeeded with the following output:
+Change Dir: /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6eeb2/fast"
+make[1]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6eeb2.dir/build.make CMakeFiles/cmTC_6eeb2.dir/build
+make[2]: Entering directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6eeb2.dir/src.cxx.o
+/usr/bin/c++     -DCOMPILER_SUPPORT_std=cpp03   -std=c++03 -o CMakeFiles/cmTC_6eeb2.dir/src.cxx.o -c /home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6eeb2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6eeb2.dir/link.txt --verbose=1
+/usr/bin/c++    -DCOMPILER_SUPPORT_std=cpp03    CMakeFiles/cmTC_6eeb2.dir/src.cxx.o  -o cmTC_6eeb2 -rdynamic 
+make[2]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/bjt/Documents/research/vision/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }

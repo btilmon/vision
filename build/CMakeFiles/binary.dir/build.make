@@ -81,9 +81,33 @@ CMakeFiles/binary.dir/src/main.cpp.o.provides: CMakeFiles/binary.dir/src/main.cp
 CMakeFiles/binary.dir/src/main.cpp.o.provides.build: CMakeFiles/binary.dir/src/main.cpp.o
 
 
+CMakeFiles/binary.dir/src/stitching.cpp.o: CMakeFiles/binary.dir/flags.make
+CMakeFiles/binary.dir/src/stitching.cpp.o: ../src/stitching.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bjt/Documents/research/vision/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/binary.dir/src/stitching.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/binary.dir/src/stitching.cpp.o -c /home/bjt/Documents/research/vision/src/stitching.cpp
+
+CMakeFiles/binary.dir/src/stitching.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/binary.dir/src/stitching.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bjt/Documents/research/vision/src/stitching.cpp > CMakeFiles/binary.dir/src/stitching.cpp.i
+
+CMakeFiles/binary.dir/src/stitching.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/binary.dir/src/stitching.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bjt/Documents/research/vision/src/stitching.cpp -o CMakeFiles/binary.dir/src/stitching.cpp.s
+
+CMakeFiles/binary.dir/src/stitching.cpp.o.requires:
+
+.PHONY : CMakeFiles/binary.dir/src/stitching.cpp.o.requires
+
+CMakeFiles/binary.dir/src/stitching.cpp.o.provides: CMakeFiles/binary.dir/src/stitching.cpp.o.requires
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/stitching.cpp.o.provides.build
+.PHONY : CMakeFiles/binary.dir/src/stitching.cpp.o.provides
+
+CMakeFiles/binary.dir/src/stitching.cpp.o.provides.build: CMakeFiles/binary.dir/src/stitching.cpp.o
+
+
 CMakeFiles/binary.dir/src/filtering.cpp.o: CMakeFiles/binary.dir/flags.make
 CMakeFiles/binary.dir/src/filtering.cpp.o: ../src/filtering.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bjt/Documents/research/vision/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/binary.dir/src/filtering.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bjt/Documents/research/vision/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/binary.dir/src/filtering.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/binary.dir/src/filtering.cpp.o -c /home/bjt/Documents/research/vision/src/filtering.cpp
 
 CMakeFiles/binary.dir/src/filtering.cpp.i: cmake_force
@@ -107,7 +131,7 @@ CMakeFiles/binary.dir/src/filtering.cpp.o.provides.build: CMakeFiles/binary.dir/
 
 CMakeFiles/binary.dir/src/basic_utils.cpp.o: CMakeFiles/binary.dir/flags.make
 CMakeFiles/binary.dir/src/basic_utils.cpp.o: ../src/basic_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bjt/Documents/research/vision/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/binary.dir/src/basic_utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bjt/Documents/research/vision/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/binary.dir/src/basic_utils.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/binary.dir/src/basic_utils.cpp.o -c /home/bjt/Documents/research/vision/src/basic_utils.cpp
 
 CMakeFiles/binary.dir/src/basic_utils.cpp.i: cmake_force
@@ -129,9 +153,33 @@ CMakeFiles/binary.dir/src/basic_utils.cpp.o.provides: CMakeFiles/binary.dir/src/
 CMakeFiles/binary.dir/src/basic_utils.cpp.o.provides.build: CMakeFiles/binary.dir/src/basic_utils.cpp.o
 
 
+CMakeFiles/binary.dir/src/matrix.cpp.o: CMakeFiles/binary.dir/flags.make
+CMakeFiles/binary.dir/src/matrix.cpp.o: ../src/matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bjt/Documents/research/vision/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/binary.dir/src/matrix.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/binary.dir/src/matrix.cpp.o -c /home/bjt/Documents/research/vision/src/matrix.cpp
+
+CMakeFiles/binary.dir/src/matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/binary.dir/src/matrix.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bjt/Documents/research/vision/src/matrix.cpp > CMakeFiles/binary.dir/src/matrix.cpp.i
+
+CMakeFiles/binary.dir/src/matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/binary.dir/src/matrix.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bjt/Documents/research/vision/src/matrix.cpp -o CMakeFiles/binary.dir/src/matrix.cpp.s
+
+CMakeFiles/binary.dir/src/matrix.cpp.o.requires:
+
+.PHONY : CMakeFiles/binary.dir/src/matrix.cpp.o.requires
+
+CMakeFiles/binary.dir/src/matrix.cpp.o.provides: CMakeFiles/binary.dir/src/matrix.cpp.o.requires
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/src/matrix.cpp.o.provides.build
+.PHONY : CMakeFiles/binary.dir/src/matrix.cpp.o.provides
+
+CMakeFiles/binary.dir/src/matrix.cpp.o.provides.build: CMakeFiles/binary.dir/src/matrix.cpp.o
+
+
 CMakeFiles/binary.dir/tests/unit_tests.cpp.o: CMakeFiles/binary.dir/flags.make
 CMakeFiles/binary.dir/tests/unit_tests.cpp.o: ../tests/unit_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bjt/Documents/research/vision/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/binary.dir/tests/unit_tests.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bjt/Documents/research/vision/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/binary.dir/tests/unit_tests.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/binary.dir/tests/unit_tests.cpp.o -c /home/bjt/Documents/research/vision/tests/unit_tests.cpp
 
 CMakeFiles/binary.dir/tests/unit_tests.cpp.i: cmake_force
@@ -156,20 +204,24 @@ CMakeFiles/binary.dir/tests/unit_tests.cpp.o.provides.build: CMakeFiles/binary.d
 # Object files for target binary
 binary_OBJECTS = \
 "CMakeFiles/binary.dir/src/main.cpp.o" \
+"CMakeFiles/binary.dir/src/stitching.cpp.o" \
 "CMakeFiles/binary.dir/src/filtering.cpp.o" \
 "CMakeFiles/binary.dir/src/basic_utils.cpp.o" \
+"CMakeFiles/binary.dir/src/matrix.cpp.o" \
 "CMakeFiles/binary.dir/tests/unit_tests.cpp.o"
 
 # External object files for target binary
 binary_EXTERNAL_OBJECTS =
 
 binary: CMakeFiles/binary.dir/src/main.cpp.o
+binary: CMakeFiles/binary.dir/src/stitching.cpp.o
 binary: CMakeFiles/binary.dir/src/filtering.cpp.o
 binary: CMakeFiles/binary.dir/src/basic_utils.cpp.o
+binary: CMakeFiles/binary.dir/src/matrix.cpp.o
 binary: CMakeFiles/binary.dir/tests/unit_tests.cpp.o
 binary: CMakeFiles/binary.dir/build.make
 binary: CMakeFiles/binary.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bjt/Documents/research/vision/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable binary"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bjt/Documents/research/vision/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable binary"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/binary.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -178,8 +230,10 @@ CMakeFiles/binary.dir/build: binary
 .PHONY : CMakeFiles/binary.dir/build
 
 CMakeFiles/binary.dir/requires: CMakeFiles/binary.dir/src/main.cpp.o.requires
+CMakeFiles/binary.dir/requires: CMakeFiles/binary.dir/src/stitching.cpp.o.requires
 CMakeFiles/binary.dir/requires: CMakeFiles/binary.dir/src/filtering.cpp.o.requires
 CMakeFiles/binary.dir/requires: CMakeFiles/binary.dir/src/basic_utils.cpp.o.requires
+CMakeFiles/binary.dir/requires: CMakeFiles/binary.dir/src/matrix.cpp.o.requires
 CMakeFiles/binary.dir/requires: CMakeFiles/binary.dir/tests/unit_tests.cpp.o.requires
 
 .PHONY : CMakeFiles/binary.dir/requires

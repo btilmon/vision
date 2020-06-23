@@ -67,18 +67,22 @@ Image gaussian_kernel(float sigma)
 Image sobel_gx(const Image& im)
 {
   assert(im.c==1 && "Image must be grayscale.");
-  Image k1(1,3,1); k1={1, 0, -1};
-  Image k2(3,1,1); k2={1, 2, 1};
-  Image gx = convolve(convolve(im, k1), k2);
+  Image k(3,3,1);// k1(0,0,0)=1; k1(0,1,0)=0; k1(0,2,0)=-1;
+  k(0,0,0)=1; k(0,1,0)=0; k(0,2,0)=-1;
+  k(1,0,0)=2; k(1,1,0)=0; k(1,2,0)=-2;
+  k(2,0,0)=1; k(2,1,0)=0; k(2,2,0)=-1;
+  Image gx = convolve(im, k);
   return gx;
 }
 
 Image sobel_gy(const Image& im)
 {
   assert(im.c==1 && "Image must be grayscale.");
-  Image k1(1,3,1); k1={1, 2, 1};
-  Image k2(3,1,1); k2={1, 0, -1};
-  Image gy = convolve(convolve(im, k1), k2);
+  Image k(3,3,1);// k1(0,0,0)=1; k1(0,1,0)=0; k1(0,2,0)=-1;
+  k(0,0,0)=1; k(0,1,0)=2; k(0,2,0)=1;
+  k(1,0,0)=0; k(1,1,0)=0; k(1,2,0)=0;
+  k(2,0,0)=-1; k(2,1,0)=-2; k(2,2,0)=-1;
+  Image gy = convolve(im, k);
   return gy;
 }
 
@@ -97,7 +101,7 @@ pair<Image,Image> sobel(const Image& im)
   Image Theta(im.h,im.w,im.c);
   for(int h=0; h<Theta.h; ++h){
     for(int w=0; w<Theta.w; ++w){
-      Theta(h,w,0) = 0;//atan(  gy(h,w,0)/gx(h,w,0) ) * 180/PI;
+      Theta(h,w,0) = atan(  gy(h,w,0)/gx(h,w,0) ) * 180/PI;
     }
   }
   return {G, Theta};

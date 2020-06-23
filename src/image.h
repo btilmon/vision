@@ -2,6 +2,8 @@
 #define IMAGE_H
 
 #include <cstring>
+#include <assert.h>
+#include <vector>
 
 
 using namespace std;
@@ -91,8 +93,35 @@ struct Image
 
   };
 
+// A 2d point.
+// float x, y: the coordinates of the point.
+struct Point 
+  {
+  double x, y;
+  
+  Point() : x(0), y(0) {}
+  Point(double x, double y) : x(x), y(y) {}
+  };
 
-void print_size(Image& im);
+// A descriptor for a point in an image.
+// point p: x,y coordinates of the image pixel.
+// vector<float> data: the descriptor for the pixel.
+struct Descriptor
+  {
+  Point p;
+  vector<float> data;
+  
+  Descriptor(){}
+  Descriptor(const Point& p) : p(p) {}
+  };
+
+
+// image stitching
+vector<Descriptor> harris_corner_detector(const Image& im);
+Image structure_matrix(const Image& im);
+
+
+void print_size(const Image& im);
 
 // Image I/O
 inline Image load_image(char *filename) {Image im; im.load_image(filename); return im;};
@@ -112,6 +141,8 @@ float max(const Image& im);
 Image gaussian_kernel(float sigma);
 Image convolve(const Image& im, const Image& kern);
 Image blur(const Image& im, float sigma);
+Image sobel_gx(const Image& im);
+Image sobel_gy(const Image& im);
 pair<Image,Image> sobel(const Image& im);
 void feature_normalize(Image& im);
 

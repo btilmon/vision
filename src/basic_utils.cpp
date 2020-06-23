@@ -22,7 +22,7 @@ void determine_cpp_version()
     std::cout << "pre-standard C++" << endl;
 }
 
-void print_size(Image& im)
+void print_size(const Image& im)
   {
   cout << "Image [HxWxC]: [" << im.h << ", " << im.w << ", " << im.c << "]" << endl;
   }
