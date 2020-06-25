@@ -109,6 +109,14 @@ Eigen/Dense
 -
 iostream
 -
+image.h
+/home/bjt/Documents/research/vision/src/image.h
+
+/home/bjt/Documents/research/vision/src/matrix.h
+Eigen/Dense
+-
+image.h
+/home/bjt/Documents/research/vision/src/image.h
 
 /home/bjt/Documents/research/vision/src/stitching.cpp
 vector
@@ -117,6 +125,8 @@ iostream
 -
 image.h
 /home/bjt/Documents/research/vision/src/image.h
+matrix.h
+/home/bjt/Documents/research/vision/src/matrix.h
 
 /home/bjt/Documents/research/vision/tests/unit_tests.cpp
 iostream

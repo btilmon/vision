@@ -6,7 +6,8 @@
 #include <vector>
 
 
-using namespace std;
+using std::cout;
+using std::endl;
 
 struct Image;
 int pixel_address(const Image& im, int h, int w, int c);
@@ -37,7 +38,7 @@ struct Image
   Image(const Image& from) : data(nullptr) {*this = from;}
 
   // move constructor
-  Image(Image&& from) : data(nullptr) {*this = move(from);}
+  Image(Image&& from) : data(nullptr) {*this = std::move(from);}
 
   //copy assignment
   Image& operator = (const Image& from)
@@ -86,8 +87,8 @@ struct Image
     return data[pixel_address(*this, y, x, ch)];
     }
 
-  void load_image(const string& filename);
-  void save_image(const string& filename) const;
+    void load_image(const std::string& filename);
+    void save_image(const std::string& filename) const;
   void clamp(void);
   void feature_normalize(void);
 
@@ -109,7 +110,7 @@ struct Point
 struct Descriptor
   {
   Point p;
-  vector<float> data;
+    std::vector<float> data;
   
   Descriptor(){}
   Descriptor(const Point& p) : p(p) {}
@@ -117,7 +118,7 @@ struct Descriptor
 
 
 // image stitching
-vector<Descriptor> harris_corner_detector(const Image& im);
+std::vector<Descriptor> harris_corner_detector(const Image& im);
 Image structure_matrix(const Image& im);
 
 
@@ -125,7 +126,7 @@ void print_size(const Image& im);
 
 // Image I/O
 inline Image load_image(char *filename) {Image im; im.load_image(filename); return im;};
-inline void save_image (const Image& im, const string& filename) { im.save_image (filename); }
+inline void save_image (const Image& im, const std::string& filename) { im.save_image (filename); }
 
 // color space
 Image rgb2gray(const Image& im);
@@ -138,12 +139,12 @@ float min(const Image& im);
 float max(const Image& im);
 
 // filtering
-Image gaussian_kernel(float sigma);
+float get_pixel_conv(const Image& im, int n, int m, int c);
 Image convolve(const Image& im, const Image& kern);
 Image blur(const Image& im, float sigma);
 Image sobel_gx(const Image& im);
 Image sobel_gy(const Image& im);
-pair<Image,Image> sobel(const Image& im);
+std::pair<Image,Image> sobel(const Image& im);
 void feature_normalize(Image& im);
 
 #endif

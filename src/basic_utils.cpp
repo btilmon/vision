@@ -6,7 +6,8 @@
 #include "vision/stb_image_write.h"
 #include "image.h"
 
-using namespace std;
+using std::cout;
+using std::endl;
 
 void determine_cpp_version()
 {
@@ -29,7 +30,7 @@ void print_size(const Image& im)
 
 
 // Image I/O
-Image load_image_stb(const string& filename)
+Image load_image_stb(const std::string& filename)
   {
   //channels = 1 for grayscale, 3 for rgb 
   int h, w, ch, channels = 3;
@@ -52,7 +53,7 @@ Image load_image_stb(const string& filename)
   return im;
   }
 
-void save_image_stb(const Image& im, const string& name)
+void save_image_stb(const Image& im, const std::string& name)
   {
 
   unsigned char *data = new unsigned char[im.h*im.w*im.c]();
@@ -138,6 +139,6 @@ float max(const Image& im)
   }
 
 // member functions
-void Image::load_image(const string& filename) { *this=load_image_stb(filename); }
-void Image::save_image(const string& name) const { save_image_stb(*this, name); }
+void Image::load_image(const std::string& filename) { *this=load_image_stb(filename); }
+void Image::save_image(const std::string& name) const { save_image_stb(*this, name); }
 void Image::clamp(void) {clamp_image(*this);}
