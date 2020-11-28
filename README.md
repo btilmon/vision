@@ -1,4 +1,4 @@
-# Computer Vision Library #
+# Computer Vision Algorithms #
 
 C++ computer vision algorithms.
 
