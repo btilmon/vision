@@ -1,6 +1,6 @@
 # Computer Vision Library #
 
-Custom computer vision library written in C++.
+C++ computer vision algorithms.
 
 ## Contents ##
 1. Harris corner detector
